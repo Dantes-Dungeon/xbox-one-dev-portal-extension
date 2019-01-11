@@ -1,0 +1,22 @@
+{
+  "name": "XODP",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "unlocks hidden things in the dev portal",
+  "icons": { "128" : "icon.png"},
+  "homepage_url": "http://darksoftware.xyz",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Unlock!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
